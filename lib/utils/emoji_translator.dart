@@ -126,7 +126,7 @@ class EmojiTranslator {
       }
 
       if (!replaced) {
-        output.write(word);
+        output.write(current);
       }
 
       if (punctuation.isNotEmpty) {

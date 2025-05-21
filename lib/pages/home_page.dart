@@ -39,9 +39,7 @@ class _HomePageState extends State<HomePage> {
             Expanded(
               child: SingleChildScrollView(
                 child: Text(
-                  _translatedText.isEmpty 
-                  ? 'Start typing to see emoji translation!' 
-                  : _translatedText,
+                  _translatedText,
                   style: const TextStyle(fontSize: 24),
                 ),
               ),
